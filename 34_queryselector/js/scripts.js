@@ -1,14 +1,25 @@
-// acessando por tag
-var titulo = document.getElementsByTagName('h1')[0];
-console.log(titulo);
+var itensClasse = document.getElementsByClassName('item');
 
-var lis = document.getElementsByTagName('li');
-console.log(lis[3]);
+console.log(itensClasse);
 
-// acessando por id
-var paragrafo = document.getElementById('paragrafo');
-console.log(paragrafo);
+// querySelectorAll
+var itensQuery = document.querySelectorAll('#lista2 li');
 
-// acessando por class
-var itensDaLista = document.getElementsByClassName('item');
-console.log(itensDaLista);
+console.log(itensQuery);
+
+var itensQuery2 = document.querySelectorAll('#lista .item');
+
+console.log(itensQuery2);
+
+// querySelector
+var lista = document.querySelector('#lista');
+
+console.log(lista);
+
+var primeiraLista = document.querySelector('ul');
+
+console.log(primeiraLista);
+
+var span = document.querySelector('#paragrafo span');
+
+console.log(span);

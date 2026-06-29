@@ -1,14 +1,14 @@
-var idade = 17;
+var idade = 12;
 var nome = "João";
 
 if(nome == "João" || idade > 14) {
-    console.log("Pode entrar na aula de esgrima.")
+  console.log("Pode entrar na aula de esgrima");
 } else {
-    console.log("Não pode entrar.");
+  console.log("Não pode entrar");
 }
 
-if((nome == "Pedro" || 30 > 20) && 10 == 10) {
-    console.log("testando");
+if(nome == "Pedro" && (30 > 20 || 10 == 10)) {
+  console.log("testando");
 } else {
-    console.log("não entrou")
+  console.log("não entrou");
 }

@@ -1,11 +1,12 @@
 var obj = {
-    nome: "Juliano",
-    idade: 45,
-    profissao: "Programador",
-    estaTrabalhando: true,
-}
+  nome: "Matheus",
+  idade: 29,
+  profissao: "Programador",
+  estaTrabalhando: true,
+};
 
 console.log(obj);
+
 console.log(typeof obj);
 
 console.log(obj.nome);

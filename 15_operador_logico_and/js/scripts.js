@@ -1,18 +1,18 @@
-var idade = 17;
+var idade = 16;
 var nome = "João";
 
 if(nome == "João" && idade == 16) {
-    console.log("O João pode participar da aula.");
+  console.log("O João pode entrar na aula de esgrima");
 } else {
-    console.log("O João não pode participar da aula.")
+  console.log("Este não é o João");
 }
 
 if(1 == 1 && 3 > 2 && true) {
-    console.log("Passou");
+  console.log("Passou");
 }
 
-if(1 == 1 && 3 > 5 && true) {
-    console.log("Não passou")
+if((1 == 1 && 3 > 3) && true) {
+  console.log("Passou");
 } else if(nome === "João" && idade >= 14) {
-console.log("Aqui passa!")
+  console.log("Aqui passa!");
 }

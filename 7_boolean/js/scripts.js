@@ -9,4 +9,4 @@ console.log(typeof false);
 var falso = false;
 
 console.log(falso);
-console.log(typeof false);
+console.log(typeof falso);

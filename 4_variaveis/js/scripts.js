@@ -11,7 +11,7 @@ console.log(teste);
 console.log(nome);
 
 var $nome = 'ASD';
-var _nome = 'ASD';
+var _nome = 'ASD2';
 
 console.log($nome);
 console.log(_nome);
@@ -20,11 +20,11 @@ var nome5 = 'ASD3';
 
 console.log(nome5);
 
-varMeuPrimeiroNome = "Juliano";
+var meuPrimeiroNome = 'Matheus';
 
-console.log(varMeuPrimeiroNome); // camelCase
+console.log(meuPrimeiroNome); // camelCase
 
-var meusobrenome = "Guimarães";
+var meusobrenome = "Battisti";
 
 console.log(meusobrenome);
 
@@ -38,6 +38,6 @@ var meuNome;
 
 console.log(meuNome);
 
-meuNome = "Vitor";
+meuNome = "Matheus";
 
 console.log(meuNome);

@@ -1,37 +1,32 @@
-// variáveis globais podem ser usadas em qualquer parte do código
-// variáveis locais só podem ser usadas dentro de suas funções
+var x = 1;
 
-var x = 1; // escopo global
-
-var y = 3; // escopo global
+var y = 3;
 
 console.log(x, y);
 
 function teste() {
 
-    var z = 0; // escopo local
+  var z = 0;
 
-    console.log(z);
-
-    console.log(x); // variável global
+  console.log(z);
 
 }
 
 teste();
 
-// console.log(z); // variável local
-
 function testando() {
 
-    var z = 5;
-    console.log(z);
+  var z = 5;
+
+  console.log(z);
+
 }
 
 testando();
 
 if(true) {
-
-    var p = 1;
+  
+  var p = 1;
 
 }
 

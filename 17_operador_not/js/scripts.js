@@ -1,11 +1,9 @@
-if(!true) {
-    console.log("Passou");
-} else {
-    console.log("Não passou");
+if(!false) {
+  console.log("Passou");
 }
 
 var nome = "Matheus";
 
-if(nome == "Matheus") {
-    console.log("OK");
+if(!(nome == "João")) {
+  console.log("Ok");
 }

@@ -1,19 +1,18 @@
-var itensClasse = document.getElementsByClassName('item');
-console.log(itensClasse);
+// tag
+var titulo = document.getElementsByTagName('h1')[0];
 
-//querySelectorAll
-var itensQuery = document.querySelectorAll('#lista2 li');
-console.log(itensQuery);
+console.log(titulo);
 
-var itensQuery2 = document.querySelectorAll('#lista .item');
-console.log(itensQuery2);
+var lis = document.getElementsByTagName('li');
 
-// querySelector
-var lista = document.querySelector('#lista');
-console.log(lista);
+console.log(lis);
 
-var primeiraLista = document.querySelector('ul');
-console.log(primeiraLista);
+// id
+var paragrafo = document.getElementById('paragrafo');
 
-var span = document.querySelector('#paragrafo span');
-console.log(span);
+console.log(paragrafo);
+
+// class
+var itensDaLista = document.getElementsByClassName('item');
+
+console.log(itensDaLista);

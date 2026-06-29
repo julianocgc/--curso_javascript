@@ -1,13 +1,14 @@
-// Hoisting = içamento
+// Hoisting - içamento
 console.log(sobrenome);
+console.log(numero);
 
 var nome = null;
-var sobrenome; // undefined
+var sobrenome = "Battisti";
 
 console.log(nome);
 console.log(sobrenome);
 
-nome = "Juliano";
+nome = "Matheus";
 
 console.log(nome);
 

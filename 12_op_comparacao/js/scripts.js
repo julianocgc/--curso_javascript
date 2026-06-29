@@ -2,31 +2,31 @@ var idade = 15;
 var possuiCarro = 1;
 
 if(idade >= 18) {
-    console.log("O usuário pode tirar sua carteira de motorista!")
+  console.log("O usuário pode fazer a carteira");
 }
 
 if(idade <= 17) {
-    console.log("O usuário não pode fazer a carteira de motorista...")
+  console.log("O usuário não pode fazer a carteira");
 }
 
 if(possuiCarro) {
-    console.log("O usuário já pode andar de carro.");
+  console.log("O usuário já pode andar de carro");
 }
 
-var nome = "Vitor";
+var nome = "Matheus";
 
-if(nome == "Juliano") {
-    console.log("O seu nome é Juliano");
+if(nome == "Matheus") {
+  console.log("O seu nome é Matheus");
 }
 
-if(nome != "Juliano") {
-    console.log("O seu nome não é Juliano");
+if(nome != "Matheus") {
+  console.log("O nome não é Matheus");
 }
 
-if(20 > 10) {
-    console.log("Passou");
+if(20 > 100) {
+  console.log("Passou");
 }
 
-if(10 < 20) {
-    console.log("Passou 2");
+if(100 < 20) {
+  console.log("Passou 2")
 }
